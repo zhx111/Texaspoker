@@ -1,0 +1,22 @@
+.card-small {
+    width: 100px;
+    height: 130px;
+    border:1px solid #eee;
+    border-radius: 3px;
+    position: relative;
+}
+
+.card-value {
+    font-size: 20px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.card-type {
+    font-size: 30px;
+    position: absolute;
+    top:40%;
+    left:35%;
+    transform: (-50%,-50%);
+}

@@ -1,0 +1,7 @@
+.card-table{
+  width: 80%;
+  height: 50vh;
+  border:1px solid #333;
+  border-radius: 200px;
+  margin: 20px auto;
+}
