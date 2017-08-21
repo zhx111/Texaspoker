@@ -6,7 +6,12 @@ import React,{Component} from 'react';
 class ChipArea extends Component{
     render(){
         return(
-            <div>筹码区</div>
+            <div className="ChipArea">
+                <div>
+                    <span></span>
+                    <span>1000</span>
+                </div>
+            </div>
         )
     }
 }

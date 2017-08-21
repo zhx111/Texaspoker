@@ -6,8 +6,8 @@ class Table extends Component{
     render(){
         return (
             <div className="card-table">
-                <PubCardArea/>
                 <ChipArea/>
+                <PubCardArea/>
             </div>
         )
     }
