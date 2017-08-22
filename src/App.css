@@ -18,3 +18,29 @@
 .ChipArea {
   margin-top:50px;
 }
+
+.main-seat,.sub-seat{
+  display: inline-block;
+  position: relative;
+  height: 180px;
+  border:1px solid #333333;
+  vertical-align: middle;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+
+.seat-userinfo{
+  float:left;
+  width:100px;
+}
+
+.seat-usercard{
+  margin-left:100px;
+}
+
+.favicon{
+  width: 80px;
+  height:80px;
+  border: 1px solid #333333;
+}

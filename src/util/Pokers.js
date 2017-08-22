@@ -171,5 +171,5 @@ console.log(res1);
 console.log(res2);
 console.log(p.compare(res1,res2));
 
-export default Pokers;
+//export default Pokers;
 
