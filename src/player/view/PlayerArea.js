@@ -10,7 +10,12 @@ class PlayerArea extends Component{
         return (
             <div>
                 <SubSeat/>
+                <SubSeat/>
+                <SubSeat/>
                 <MainSeat/>
+                <SubSeat/>
+                <SubSeat/>
+                <SubSeat/>
             </div>
         )
     }

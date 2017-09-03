@@ -132,7 +132,7 @@ class Pokers{
         }
         return res;
     }
-    //比较cardLevel;res>0=>1>2;res<0=>1<2;res=0=>1==2
+    //比较cardLevel;res>0 => 1>2;res<0 => 1<2;res=0 => 1==2
     compare(cards1,cards2){
         let res = cards1.level - cards2.level;
         const ONE_POKERS = 5;
@@ -143,6 +143,30 @@ class Pokers{
                     break;
                 }
             }
+        }
+        return res;
+    }
+    //给一个手牌序列数组排序。cards:[{id:0,card:[1,2,3,4,5,6,7]},{...},...]
+    sortCard(cards){
+        if(!Array.isArray(cards)) return;
+        cards.forEach((item)=>{
+            item.card = this.cardPattern(item.card);
+        });
+        cards.sort((card1,card2)=>{return -this.compare(card1.card,card2.card)});
+        //相同的大小的项进行合并,最后生成的cards为[[{...},{...}],[{...},{...}],[...]]
+        let res = [];
+        for(let i=0;i<cards.length;i++){
+            var temp = cards[i];
+            var arr = [temp];
+            for(let j=i+1;j<cards.length;j++){
+                if(this.compare(temp.card,cards[j].card)===0){
+                    arr.push(cards[j]);
+                    i++;
+                }else{
+                    break;
+                }
+            }
+            res.push(arr);
         }
         return res;
     }
@@ -164,12 +188,17 @@ class Pokers{
 }
 
 
-var p = new Pokers();
-var res1 = p.cardPattern([8,9,10,24,11,25,12]);
-var res2 = p.cardPattern([11,0,35,38,34,41,33]);
-console.log(res1);
-console.log(res2);
-console.log(p.compare(res1,res2));
+// var p = new Pokers();
+// var cards = [{id:0,card:[0,1,2,3,4]},{id:1,card:[13,14,15,16,17]},{id:2,card:[0,1,2,3,4]},{id:3,card:[0,1,2,3,4]},{id:4,card:[0,1,2,3,4]}]
+// var res = p.sortCard(cards);
+// console.log(res);
+// var res1 = p.cardPattern([8,9,10,24,11,25,12]);
+// var res2 = p.cardPattern([11,0,35,38,34,41,33]);
+// console.log(res1);
+// console.log(res2);
+// console.log(p.compare(res1,res2));
+
 
 //export default Pokers;
+module.exports = Pokers;
 

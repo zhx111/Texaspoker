@@ -4,3 +4,11 @@ body {
   font-family: sans-serif;
   box-sizing: border-box;
 }
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}

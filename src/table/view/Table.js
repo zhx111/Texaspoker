@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import PubCardArea from './PubCardArea';
 import ChipArea from './ChipArea';
+import GameOption from './GameOption';
 
 class Table extends Component{
     render(){
@@ -8,6 +9,7 @@ class Table extends Component{
             <div className="card-table">
                 <ChipArea/>
                 <PubCardArea/>
+                <GameOption/>
             </div>
         )
     }
