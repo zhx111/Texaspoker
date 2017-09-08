@@ -39,6 +39,12 @@ class Game {
         let log = console.log.bind(console);
         log("Game start!");
     }
+    sendPublic(){
+        return this._sendCard(3);
+    }
+    send(num){
+        return this._sendCard(num);
+    }
     // start(){
     //     let log = console.log.bind(console);
     //     log("Game start!");

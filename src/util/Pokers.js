@@ -171,7 +171,7 @@ class Pokers{
         return res;
     }
 
-    encodeCard(cardNum){
+    static encodeCard(cardNum){
         var cardType = [];
         cardType[0] = cardNum%13;
         cardType[1] = Math.floor(cardNum/13);
@@ -200,5 +200,6 @@ class Pokers{
 
 
 //export default Pokers;
+//export {};
 module.exports = Pokers;
 

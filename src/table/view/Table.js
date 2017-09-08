@@ -3,12 +3,22 @@ import PubCardArea from './PubCardArea';
 import ChipArea from './ChipArea';
 import GameOption from './GameOption';
 import Game from '../../util/Game';
+import {view as PlayerArea} from '../../player/index';
 
 class Table extends Component{
+    state = {
+        publicCards:[],
+        players:[],
+        singleCards:[],
+    }
     handleGame(state){
         let g = new Game(this.generateOptions(state));
-        this.props.onHandleCount(g.players);
         g.start();
+        this.setState({
+            publicCards:g.sendPublic(),
+            players:g.players,
+            singleCards:g.send(2)
+        });
     }
     generateOptions(state){
         let options = {};
@@ -29,10 +39,13 @@ class Table extends Component{
     }
     render(){
         return (
-            <div className="card-table">
-                <ChipArea/>
-                <PubCardArea/>
-                <GameOption handleGame={this.handleGame.bind(this)}/>
+            <div>
+                <div className="card-table">
+                    <ChipArea/>
+                    <PubCardArea cards={this.state.publicCards}/>
+                    <GameOption handleGame={this.handleGame.bind(this)}/>
+                </div>
+                <PlayerArea players={this.state.players} cards={this.state.singleCards}/>
             </div>
         )
     }

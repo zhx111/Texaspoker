@@ -10,28 +10,24 @@ class PlayerArea extends Component{
     renderSeats(){
         const players = this.props.players;
         const count = players.length;
+        const {cards} =  this.props;
         const seats = players.map((item)=>{
             if(item.id === Math.floor(count/2)){
                 return (
-                    <MainSeat key={item.id}/>
+                    <MainSeat key={item.id} cards={cards}/>
                 )
             }else{
                 return (
                     <SubSeat key={item.id}/>
                 )
             }
-        })
-
-        return (
-            <div>
-                {seats}
-            </div>
-        );
+        });
+        return seats;
     }
     render(){
         return (
             <div>
-                {this.renderSeats()};
+                {this.renderSeats()}
             </div>
         )
     }

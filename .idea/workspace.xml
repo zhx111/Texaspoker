@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c15280-163d-44b1-bf69-29c1482c35bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/view/MainSeat.js" afterPath="$PROJECT_DIR$/src/player/view/MainSeat.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/player/view/PlayerArea.js" afterPath="$PROJECT_DIR$/src/player/view/PlayerArea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/table/view/GameOption.js" afterPath="$PROJECT_DIR$/src/table/view/GameOption.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/table/view/PubCardArea.js" afterPath="$PROJECT_DIR$/src/table/view/PubCardArea.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/table/view/Table.js" afterPath="$PROJECT_DIR$/src/table/view/Table.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util/Game.js" afterPath="$PROJECT_DIR$/src/util/Game.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util/Pokers.js" afterPath="$PROJECT_DIR$/src/util/Pokers.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +30,18 @@
       <file leaf-file-name="Game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/Game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="616">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pokers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/Pokers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3872">
+              <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,8 +50,8 @@
       <file leaf-file-name="Table.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/table/view/Table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="561">
+              <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -50,8 +62,8 @@
       <file leaf-file-name="PlayerArea.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/player/view/PlayerArea.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="187">
+              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
                 <element signature="e#40#78#0" expanded="true" />
               </folding>
@@ -59,11 +71,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MainSeat.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/player/view/MainSeat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubSeat.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/player/view/SubSeat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="220">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -71,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameOption.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/table/view/GameOption.js">
+      <file leaf-file-name="PubCardArea.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/table/view/PubCardArea.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="52" column="55" lean-forward="false" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -97,18 +131,6 @@
             <state relative-caret-position="264">
               <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PubCardArea.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/table/view/PubCardArea.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -137,23 +159,23 @@
         <option value="$PROJECT_DIR$/src/table/view/PublicArea.js" />
         <option value="$PROJECT_DIR$/src/table/index.js" />
         <option value="$PROJECT_DIR$/src/Component/Card.css" />
-        <option value="$PROJECT_DIR$/src/table/view/PubCardArea.js" />
         <option value="$PROJECT_DIR$/src/table/view/ChipArea.js" />
         <option value="$PROJECT_DIR$/src/player/view/OtherSeat.js" />
         <option value="$PROJECT_DIR$/src/Component/ProgressBar.js" />
         <option value="$PROJECT_DIR$/src/player/index.js" />
         <option value="$PROJECT_DIR$/src/Component/Card.js" />
         <option value="$PROJECT_DIR$/src/player/view/UserInfo.js" />
-        <option value="$PROJECT_DIR$/src/player/view/MainSeat.js" />
         <option value="$PROJECT_DIR$/src/player/view/SubSeat.js" />
         <option value="$PROJECT_DIR$/src/player/view/UserControl.js" />
-        <option value="$PROJECT_DIR$/src/util/Pokers.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/util/Game.js" />
         <option value="$PROJECT_DIR$/src/table/view/GameOption.js" />
+        <option value="$PROJECT_DIR$/src/util/Pokers.js" />
+        <option value="$PROJECT_DIR$/src/table/view/PubCardArea.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/util/Game.js" />
         <option value="$PROJECT_DIR$/src/table/view/Table.js" />
+        <option value="$PROJECT_DIR$/src/player/view/MainSeat.js" />
         <option value="$PROJECT_DIR$/src/player/view/PlayerArea.js" />
       </list>
     </option>
@@ -367,7 +389,7 @@
     <property name="js.eslint.eslintPackage" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
-  <component name="RunManager" selected="Node.js.Game.js">
+  <component name="RunManager" selected="Node.js.Pokers.js">
     <configuration default="false" name="Pokers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Pokers.js" working-dir="$PROJECT_DIR$/src/util">
       <method />
     </configuration>
@@ -439,8 +461,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Game.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Pokers.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Pokers.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Game.js" />
       </list>
     </recent_temporary>
   </component>
@@ -464,12 +486,12 @@
       <workItem from="1503645128625" duration="9722000" />
       <workItem from="1504061056290" duration="3789000" />
       <workItem from="1504248629171" duration="3716000" />
-      <workItem from="1504419179042" duration="11472000" />
+      <workItem from="1504419179042" duration="19996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39728000" />
+    <option name="totallyTimeSpent" value="48252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -757,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/view/SubSeat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/player/view/UserControl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -775,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/view/MainSeat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -801,24 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/table/view/PubCardArea.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Pokers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3674">
-          <caret line="169" column="9" lean-forward="false" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/table/view/GameOption.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -827,38 +817,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/util/Pokers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="3872">
+          <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/table/view/Table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="561">
+          <caret line="47" column="63" lean-forward="false" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Game.js">
+    <entry file="file://$PROJECT_DIR$/src/table/view/PubCardArea.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/view/SubSeat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/view/MainSeat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#78#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/player/view/PlayerArea.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="e#40#78#0" expanded="true" />
           </folding>

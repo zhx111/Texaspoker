@@ -1,15 +1,24 @@
 import React,{Component} from 'react';
 import Card from '../../Component/Card';
+import Pokers from '../../util/Pokers';
 
 class PubCardArea extends Component{
+    renderCard(){
+        const {cards} = this.props;
+        return cards.map((item,index)=>{
+            const value = Pokers.encodeCard(item)[0];
+            const type = Pokers.encodeCard(item)[1];
+            return (
+                <Card value={value} type={type} key={index}/>
+            )
+        });
+    }
     render(){
         return (
             <div className="PubCardArea">
-                <Card value={1} type={1}/>
-                <Card value={2} type={2}/>
-                <Card value={3} type={3}/>
+                {this.renderCard()}
             </div>
-        );
+        )
     }
 }
 
